@@ -49,7 +49,7 @@ const Header = () => {
             <div className="header_right">
                 <div className="header_info">
                     <Avatar src="https://media-exp1.licdn.com/dms/image/C5103AQG4ueORgcXhDg/profile-displayphoto-shrink_100_100/0/1569761840069?e=1639612800&v=beta&t=fbbeZG1e2zh-nQFIkWlskOFuN8QZTVDmDDAPonOkuC4" />
-                    <h5>Imran Shaikh</h5>
+                    <h5>Imran Shaikh.</h5>
                 </div>
 
                 <IconButton>
