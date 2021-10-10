@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Facebook-clone/static/css/main.48c6c67a.chunk.css",
-    "main.js": "/Facebook-clone/static/js/main.2a914e26.chunk.js",
-    "main.js.map": "/Facebook-clone/static/js/main.2a914e26.chunk.js.map",
+    "main.js": "/Facebook-clone/static/js/main.b42850a9.chunk.js",
+    "main.js.map": "/Facebook-clone/static/js/main.b42850a9.chunk.js.map",
     "runtime-main.js": "/Facebook-clone/static/js/runtime-main.db9b4309.js",
     "runtime-main.js.map": "/Facebook-clone/static/js/runtime-main.db9b4309.js.map",
     "static/js/2.437b3134.chunk.js": "/Facebook-clone/static/js/2.437b3134.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.db9b4309.js",
     "static/js/2.437b3134.chunk.js",
     "static/css/main.48c6c67a.chunk.css",
-    "static/js/main.2a914e26.chunk.js"
+    "static/js/main.b42850a9.chunk.js"
   ]
 }
