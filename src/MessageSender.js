@@ -42,8 +42,8 @@ const MessageSender = () => {
             db.collection('posts').add({
                 timestamp: firebase.firestore.FieldValue.serverTimestamp(),
                 message: message,
-                username: user.displayName,
-                photoURL: user.photoURL
+                username:"Imran Shaikh",
+                photoURL:"https://media-exp1.licdn.com/dms/image/C5103AQG4ueORgcXhDg/profile-displayphoto-shrink_100_100/0/1569761840069?e=1639612800&v=beta&t=fbbeZG1e2zh-nQFIkWlskOFuN8QZTVDmDDAPonOkuC4"
             })
         }
         else {
@@ -96,8 +96,8 @@ const MessageSender = () => {
                         </div>
 
                         <div className='modalHeader_top'>
-                            <Avatar src={user.photoURL} />
-                            <h5>{user.displayName}</h5>
+                            <Avatar src="https://media-exp1.licdn.com/dms/image/C5103AQG4ueORgcXhDg/profile-displayphoto-shrink_100_100/0/1569761840069?e=1639612800&v=beta&t=fbbeZG1e2zh-nQFIkWlskOFuN8QZTVDmDDAPonOkuC4" />
+                            <h5>Imran Shaikh</h5>
                         </div>
 
                         <div className='modalBody'>
@@ -133,7 +133,7 @@ const MessageSender = () => {
             </Modal>
             <div className='messagesender'>
                 <div className='messagesender_top'>
-                    <Avatar src={user.photoURL} />
+                    <Avatar src="https://media-exp1.licdn.com/dms/image/C5103AQG4ueORgcXhDg/profile-displayphoto-shrink_100_100/0/1569761840069?e=1639612800&v=beta&t=fbbeZG1e2zh-nQFIkWlskOFuN8QZTVDmDDAPonOkuC4" />
 
                     <form>
                         <input type='text' placeholder="what's in your mind Imran ?" onClick={handleOpen}></input>

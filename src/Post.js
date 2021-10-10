@@ -13,7 +13,7 @@ const Post = (props) => {
             <div className='post'>
                 <div className='post_top'>
                     <div className='post_topLeft'>
-                        <Avatar src={props.photoURL}/>
+                        <Avatar src="https://media-exp1.licdn.com/dms/image/C5103AQG4ueORgcXhDg/profile-displayphoto-shrink_100_100/0/1569761840069?e=1639612800&v=beta&t=fbbeZG1e2zh-nQFIkWlskOFuN8QZTVDmDDAPonOkuC4"/>
                         <div className='postInfo'>
                             <h4>{props.username}</h4>
                             <p>{props.timestamp} <PublicIcon /></p>
